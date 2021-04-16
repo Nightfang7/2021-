@@ -1,24 +1,30 @@
 import { Layout } from 'antd';
-import AppHeader from "../components/Header"
-import AppFooter from "../components/Footer"
-import ProductList from "../components/ProductList";
+import AppHeader from "../components/Navbar/Navbar"
+import ImageSlider from "../components/Slider/ImageSlider"
+import { SliderData } from "../components/Slider/SliderData"
+
 
 const { Header, Content, Footer } = Layout;
 
-// function Home() {
-//   return (
-//     <Layout className="container main-layout">
-//       <Header className="layout-header">
-//         <AppHeader/>
-//       </Header>
-//       <Content className="layout-content">
-//         <ProductList/>
-//       </Content>
-//       <Footer className="layout-footer">
-//         <AppFooter/>  
-//       </Footer>      
-//     </Layout>
-//   );
-// }
+function Home() {
+  return (
+    <>
+      <Layout>
+        <Header className="header-bg">
+          <AppHeader/>
+        </Header>
+      </Layout>
+      <Layout>
+        <Content>
+          <ImageSlider slides={SliderData}/>
+        </Content>
+      </Layout>
+      
+    </>
+    
+    
+        
+  );
+}
 
-// export default Home;
+export default Home;

@@ -1,6 +1,86 @@
+@import '~antd/dist/antd.css';
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Kiwi Maru', serif;
 }
+
+/* Home */
+.main-layout {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.header-bg {
+    background-color: rgb(240,240,240);
+    width: 100%;
+    height: 110px;
+    box-shadow: 0px 4px 4px rgba(117, 117, 117, 0.42);
+}
+
+.container {
+    width: 100%;
+    align-self: center;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    background: rgb(240,240,240);
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(117, 117, 117, 0.42);
+}
+
+/* slider */
+.slider {
+  background-color: #fff;
+  position: relative;
+  width: 100%;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  width: 100%;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color:#CECECE;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color:#CECECE;
+  align-items: flex-start;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0.5;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+  transition: transform 0.4s $bezier, color 0.4s $bezier, opacity 0.4s $bezier;
+}
+
+
