@@ -7,16 +7,16 @@ import { SliderData } from "../components/Slider/SliderData"
 
 const { Header, Content, Footer } = Layout;
 
-function Home() {
+function Story() {
   return (
     <>
       <Layout>
-        <Header className="container header-bg">
+        <Header className="header-bg">
           <AppHeader/>
         </Header>
       </Layout>
       <Layout>
-        <Content className="container silder-content">
+        <Content>
           <ImageSlider slides={SliderData}/>
         </Content>
       </Layout>
@@ -32,4 +32,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Story;

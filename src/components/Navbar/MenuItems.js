@@ -6,7 +6,7 @@ export const MenuItems = [
     },
     {
         title:'品牌故事',
-        url:'#',
+        url:'/Story',
         cName: 'nav-links'
     },
     {
@@ -28,5 +28,15 @@ export const MenuItems = [
         title:'LINE客服',
         url:'#',
         cName: 'nav-links'
+    },
+    {
+        title:'登入',
+        url:'#',
+        cName: 'nav-links-1'
+    },
+    {
+        title:'進入購物車',
+        url:'#',
+        cName: 'nav-links-mobile'
     },
 ]

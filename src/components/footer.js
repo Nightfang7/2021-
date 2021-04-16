@@ -1,28 +1,14 @@
-import React, { Component } from 'react';
-import{ MenuItems } from "./MenuItems"
-import './Navbar.css'
+import FooterNavbar from "./footerNavbar"
 
-class Navbar extends Component {
-
-    render() {
-        return(
-            <nav className="NavbarItems">
-                
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {MenuItems.map((item, index) => {
-                        return (
-                            
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                    {item.title}    
-                                </a>
-                                
-                            </li>
-                        )
-                    })}
-                </ul>
-            </nav>
-        )
-    }
+export default function Footer() {
+    return (
+        <footer className="footer">
+            <hr className="hr-footer-line" />
+            <FooterNavbar />
+            <p
+                className="copyright">
+                © 2018 塔吉特touched. All Rights Reserved..
+            </p>
+        </footer>           
+    );
 }
-export default Navbar
