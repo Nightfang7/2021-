@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
         title:'常見Q&A',
-        url:'#',
+        url:'/Problem',
         cName: 'nav-links'
     },
     {
