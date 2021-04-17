@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title:'首頁',
-        url:'#',
+        url:'/',
         cName: 'nav-links'
     },
     {
@@ -16,7 +16,7 @@ export const MenuItems = [
     },
     {
         title:'商品一覽',
-        url:'#',
+        url:'/Product',
         cName: 'nav-links'
     },
     {

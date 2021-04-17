@@ -30,9 +30,14 @@
   padding: 0;
 }
 
-.ant-layout-content{
-  min-height: 1000px;
+.content-layout{
+  max-width: 1500px;
+  margin: 0 auto;
 }
+
+/* .ant-layout-content{
+  min-height: 1000px;
+} */
 
 .silder-content {
   /* margin-top: 1.2rem; */
@@ -61,19 +66,20 @@
 .slider {
   background-color: #fff;
   position: relative;
-  width: 100%;;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.images {
+.image {
+  position: relative;
   width: 100%;
   background-size: cover;
 }
 
 .right-arrow {
-  position: absolute;
+  position: relative;
   top: 50%;
   right: 32px;
   font-size: 3rem;
@@ -84,7 +90,7 @@
 }
 
 .left-arrow {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 32px;
   font-size: 3rem;
@@ -106,17 +112,76 @@
   transform: scale(1.08);
 }
 
+/* KindBar */
+.KindbarItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kind-menu {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  background-color: transparent;
+  list-style: none;
+  width: 100%;
+  max-width: 1150px;
+}
+
+.kind-links {
+  display: flex;
+  flex-direction: column;
+  color:#A34B00;
+  padding: 10px 10px 10px 15px;
+}
+
+@media screen and (max-width: 1075px) {
+  .kind-menu {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-color: transparent;
+    width: 90%;
+  }
+
+  .kind-links {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .kind-menu {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    background-color: transparent;
+    min-width: 560px;
+    width: 80%;
+  }
+
+  .kind-links {
+    display: none;
+    flex-direction: column;
+  }
+}
+
+
+
 /* Footer */
 
 .footer-bg{
   background-color: #fff;
   width: 100%;
-  height: 110px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .footer {
-  margin-top: 3rem;
   text-align: center;
+  padding: 1rem;
 }
 
 .hr-footer-line {
@@ -134,5 +199,27 @@
   color:#CECECE;
 }
 
+/* Productslider */
+.sider-menu {
+  list-style: none;
+  padding: 0.5rem 1rem;
+}
+
+.pkind-links {
+  color: #7A7A7A;
+  text-decoration: none;
+  margin: 1rem;
+  line-height: 2rem;
+}
+
+.pkind-links:hover {
+  color: #7A7A7A;
+  opacity: 0.6;
+  transition: all 0.2s ease-out;
+}
+
+.ant-layout-sider {
+  background-color: #fff;
+}
 
 
