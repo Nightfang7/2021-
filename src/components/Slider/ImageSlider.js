@@ -23,7 +23,7 @@ const ImageSlider = ({slides}) => {
     return (
         <section className="slider">
             <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
-            <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
+            
             {SliderData.map((slide, index) => {
                 return (
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
@@ -31,6 +31,8 @@ const ImageSlider = ({slides}) => {
                     </div>
                 )
             })}
+
+            <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
         </section>
     );
 };
