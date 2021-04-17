@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Home from './pages/Home'
 import Story from './pages/Story'
+import Problem from './pages/Problem'
 import Product from './pages/Product'
 
 
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Story" component={Story} />
+          <Route path="/Problem" component={Problem} />
           <Route exact path="/Product" component={Product} />
          
         </Switch>

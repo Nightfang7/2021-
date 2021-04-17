@@ -1,6 +1,6 @@
 import { Layout } from 'antd';
 import AppHeader from "../components/Navbar/Navbar"
-import StoryContent from "../components/StoryContent"
+import ProblemContent from "../components/ProblemContent"
 import AppFooter from "../components/footer"
 
 const { Header, Content, Footer } = Layout;
@@ -12,12 +12,15 @@ function Home() {
         <Header className="header-bg">
           <AppHeader/>
         </Header>
-      <Content>
-        <img className="Story-img container" src="https://www.touched.com.tw/banner/_imagecache/page_banner.jpg"></img>
-        <StoryContent/>
-      </Content>
+
+        <Layout>
+          <Content>
+            <ProblemContent/>
+          </Content>
+        </Layout>
+
         <Footer className="footer-bg">
-          <AppFooter />
+            <AppFooter />
         </Footer>
       </Layout>
     </>
