@@ -448,6 +448,14 @@
   }
 }
 
+/* Product */
+
+.product-image {
+  width: 300px;
+}
+.text-line{
+  text-decoration:line-through;
+}
 
 
 /* Footer */

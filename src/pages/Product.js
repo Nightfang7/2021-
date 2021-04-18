@@ -1,45 +1,29 @@
+
 import { Layout } from 'antd';
 import AppHeader from "../components/Navbar/Navbar"
 import AppFooter from "../components/footer"
-import ProductTitle from "../components/Products/ProductsTitle"
-import ProductSider from "../components/Products/ProductSider"
-import ProductList from '../components/Products/ProductList';
+import ProductDetail from "../components/ProductDetail";
+import products from "../json/specialproduct.json";
 
+const { Header, Content, Footer } = Layout;
 
-const { Header, Content, Sider, Footer } = Layout;
-
-function Home() {
-    return (
-        <>
-        <Layout>
-            <Header className="container header-bg">
-            <AppHeader/>
-            </Header>
-        
-            <Layout className="content-layout">
-                <Content className="container ">
-                    <ProductTitle />
-                </Content>
-                
-            </Layout>
-            <Layout className="content-layout"> 
-                <Sider>
-                    <ProductSider />
-                </Sider>
-                <Content>
-                    
-                </Content>
-            </Layout>
-        
-            <Footer className="footer-bg">
+function Product({ match }) {
+   const product = products.find(
+      (x) => x.id === match.params.productId
+   );
+   return (
+      <Layout>
+         <Header className="container header-bg">
+            <AppHeader title="Product Detail"/>
+         </Header>
+         <Content>
+            <ProductDetail product = {product} />
+         </Content>
+         <Footer className="footer-bg">
             <AppFooter />
-            </Footer>
-        </Layout>
-        
-        </>
-        
-            
-    );
+         </Footer>
+      </Layout>
+   );
 }
 
-export default Home;
+export default Product;

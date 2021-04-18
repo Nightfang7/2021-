@@ -16,7 +16,7 @@ export const MenuItems = [
     },
     {
         title:'商品一覽',
-        url:'/Product',
+        url:'/Special',
         cName: 'nav-links'
     },
     {
