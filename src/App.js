@@ -2,7 +2,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import React from 'react';
 import './App.css';
 import Home from './pages/Home'
-import Story from './pages/Story'
+import Story from './pages/story'
 import Problem from './pages/Problem'
 import Special from './pages/Special'
 import Product from './pages/Product'
