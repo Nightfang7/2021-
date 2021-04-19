@@ -17,12 +17,12 @@ function Product() {
             </Header>
         
             <Layout>
-            <Sider>
-                <ProductSider />
-            </Sider>
-            <Content>
-                <ProductList products = {products} />
-            </Content>
+                <Sider>
+                    <ProductSider />
+                </Sider>
+                <Content>
+                    <ProductList products = {products} />
+                </Content>
             </Layout>
         
             <Footer className="footer-bg">

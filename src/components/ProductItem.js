@@ -26,7 +26,12 @@ export default function ProductItem({ product }) {
                     </Link> */}
                     <span
                         className="text-gray">
-                        NT. {product.price}
+                        <p className="product-price text-line">
+                            NT. {product.price}
+                        </p>
+                        <p className="product-price product-price--large p-pink">
+                            NT.{product.discount}
+                        </p>
                     </span>
                 </div>
             </div>

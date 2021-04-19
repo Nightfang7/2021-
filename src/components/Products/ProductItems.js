@@ -22,27 +22,27 @@ export const ProductTitle = [
 export const ProductSider = [
     {
         title:'母親節專區',
-        url:'#',
+        url:'/MotherDay',
         cName: 'pkind-links'
     },
     {
         title:'優惠組合',
-        url:'#',
+        url:'/Discount',
         cName: 'pkind-links'
     },
     {
         title:'蛋奶素專區',
-        url:'#',
+        url:'/Eggcake',
         cName: 'pkind-links'
     },
     {
         title:'8吋千層蛋糕',
-        url:'/Product',
+        url:'/Eightinchcake',
         cName: 'pkind-links'
     },
     {
         title:'果凍禮盒',
-        url:'#',
+        url:'/Jelly',
         cName: 'pkind-links'
     },
     
