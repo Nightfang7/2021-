@@ -2,7 +2,7 @@ import { Layout } from 'antd';
 import AppHeader from "../components/Navbar/Navbar"
 import AppFooter from "../components/footer"
 import ProductList from "../components/ProductList";
-import eightinchcake from "../json/motherdayproduct.json"
+import eightinchcake from "../json/eightinchcake.json"
 import ProductSider from "../components/Products/ProductSider";
 
 

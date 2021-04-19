@@ -1,0 +1,72 @@
+[
+    {
+        "id": "x5m8g6",
+        "category": "優惠組合",
+        "name": "精選綜合千層+B款綜合千層(8吋共2入)",
+        "sku": "sku_559961",
+        "price": 2230,
+        "discount": 1750,
+        "image": "https://www.touched.com.tw/static/ecommerce/240/240602/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/b/e/be/www.touched.com.tw-122999041-20.jpg",
+        "description1": "★精選+B款經典綜合(8吋2入)",
+        "description2":"★一次品嚐八種經典口味，滿足你挑剔的味蕾",
+        "description3":"★精選綜合：彩虹+OREO+藍莓甜心+抹茶紅豆",
+        "description4":"★A款綜合：蕾雅起士+牛奶+巧克力+岩燒提拉",
+        "description5":"★以上口味都是固定搭配好的無法更換",
+        "description6":"★綜合四種口味各1塊(每種口味可自行分切2~3片)",
+        "description7":"★下單時可指定到貨日(網路訂購需4個工作天，週日/週一不配送)",
+        "description8":"★外島地區配送風險較高，若需配送則蛋糕損壞不予賠償",
+        "description9":"★沒有提供分切服務，請同意後再下單",
+        "description10":"★蛋糕都要冷凍可保存一星期",
+        "description11":"★食用前在室溫下退15-20分(類似冰淇淋蛋糕的吃法)",
+        "currency": "NT",
+        "countInStock": 100 
+      },
+  
+      {
+        "id": "x5m8g7",
+        "category": "優惠組合",
+        "name": "精選綜合千層+蛋奶素綜合千層(8吋共2入)",
+        "sku": "sku_559961",
+        "price": 2230,
+        "discount": 1750,
+        "image": "https://www.touched.com.tw/static/ecommerce/240/240602/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/c/e/ce/www.touched.com.tw-122999042-20.jpg",
+        "description1": "★精選+蛋奶素經典綜合(8吋2入)",
+        "description2":"★一次品嚐八種經典口味，滿足你挑剔的味蕾",
+        "description3":"★精選綜合：彩虹+OREO+藍莓甜心+抹茶紅豆",
+        "description4":"★蛋奶素綜合：草莓甜心+芒果奶凍+太妃焦糖+荔枝優格",
+        "description5":"★以上口味都是固定搭配好的無法更換",
+        "description6":"★綜合四種口味各1塊(每種口味可自行分切2~3片)",
+        "description7":"★下單時可指定到貨日(網路訂購需4個工作天，週日/週一不配送)",
+        "description8":"★外島地區配送風險較高，若需配送則蛋糕損壞不予賠償",
+        "description9":"★沒有提供分切服務，請同意後再下單",
+        "description10":"★蛋糕都要冷凍可保存一星期",
+        "description11":"★食用前在室溫下退15-20分(類似冰淇淋蛋糕的吃法)",
+        "currency": "NT",
+        "countInStock": 100 
+      },
+
+      {
+        "id": "x5m8g5",
+        "category": "優惠組合",
+        "name": "精選綜合千層+A款綜合千層(8吋共2入)",
+        "sku": "sku_559961",
+        "price": 2230,
+        "discount": 1750,
+        "image": "https://www.touched.com.tw/static/ecommerce/240/240602/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/a/e/ae/www.touched.com.tw-122999040-20.jpg",
+        "description1": "★精選+A款經典綜合(8吋2入)",
+        "description2":"★一次品嚐八種經典口味，滿足你挑剔的味蕾",
+        "description3":"★精選綜合：彩虹+OREO+藍莓甜心+抹茶紅豆",
+        "description4":"★A款綜合：蕾雅起士+牛奶+巧克力+岩燒提拉",
+        "description5":"★以上口味都是固定搭配好的無法更換",
+        "description6":"★綜合四種口味各1塊(每種口味可自行分切2~3片)",
+        "description7":"★下單時可指定到貨日(網路訂購需4個工作天，週日/週一不配送)",
+        "description8":"★外島地區配送風險較高，若需配送則蛋糕損壞不予賠償",
+        "description9":"★沒有提供分切服務，請同意後再下單",
+        "description10":"★蛋糕都要冷凍可保存一星期",
+        "description11":"★食用前在室溫下退15-20分(類似冰淇淋蛋糕的吃法)",
+        "currency": "NT",
+        "countInStock": 100 
+      }
+  
+
+  ]

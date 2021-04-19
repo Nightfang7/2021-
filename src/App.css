@@ -462,7 +462,7 @@
 }
 /* problem-content2 */
 .problem-container{
-  margin-left: 20rem;
+  margin-left: 10rem;
   width: 55rem;
   margin-bottom: 2rem;
 
@@ -628,7 +628,7 @@
 .btn-tocar {
   background-color: #A34B00;
   border: #A34B00;
-  margin-top: 1rem;
+  
 }
 
 .btn-tocar:hover {
@@ -642,5 +642,16 @@
 }
 
 
-
-
+/* Shopping Cart */
+.btn-tocar{
+  margin-left: 2rem;
+  width: 10rem;
+  margin-top: 2.5rem;
+}
+.flex{
+  display: flex;
+}
+.product-qty{
+  margin-top: 5px;
+  font-size: 18px;
+}

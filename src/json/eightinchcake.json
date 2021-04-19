@@ -1,0 +1,43 @@
+[
+    {
+        "id": "x5m8g8",
+        "category": "八吋千層蛋糕",
+        "name": "蜂蜜彩虹千層(8吋)免運",
+        "sku": "sku_559961",
+        "price": 1250,
+        "discount": 900,
+        "image": "https://www.touched.com.tw/static/ecommerce/240/240602/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/1/0/1000x1000_29/www.touched.com.tw-122811004-20.jpg",
+        "description1":"★以蜂蜜及黃梔子果實萃取之天然食用色素為原料製作",
+        "description2":"★粉嫩色系的彩虹剖面，吸睛度100%",
+        "description3":"★甜甜的蜂蜜香氣中帶點酒香，口味獨特",
+        "description4":"★貼心提醒：1歲以下孩童請勿食用",
+        "description6":"★下單時可指定到貨日(網路訂購需4個工作天，週日/週一不配送)",
+        "description7":"★外島地區配送風險較高，若需配送則蛋糕損壞不予賠償",
+        "description8":"★沒有提供分切服務，請同意後再下單",
+        "description9":"★蛋糕都要冷凍可保存一星期",
+        "description10":"★食用前在室溫下退15-20分(類似冰淇淋蛋糕的吃法)",
+        "currency": "NT",
+        "countInStock": 100 
+    },
+  
+    {
+        "id": "x5m8g9",
+        "category": "八吋千層蛋糕",
+        "name": "藍莓甜心千層(8吋)免運",
+        "sku": "sku_559961",
+        "price": 1150,
+        "discount": 840,
+        "image": "https://www.touched.com.tw/static/ecommerce/240/240602/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/1/0/1000x1000_32/www.touched.com.tw-122822003-20.jpg",
+        "description1":"★手工特製藍莓果醬，雙層的藍莓餡料是最大特點",
+        "description2":"★滿滿的藍莓香氣和微微果酸，口感柔軟滑順且吃的到果粒",
+        "description3":"★本商品「蛋奶素」可食",
+        "description4":"★各大媒體爭相報導，眾藝人爭相品嚐！",
+        "description6":"★下單時可指定到貨日(網路訂購需4個工作天，週日/週一不配送)",
+        "description7":"★外島地區配送風險較高，若需配送則蛋糕損壞不予賠償",
+        "description8":"★沒有提供分切服務，請同意後再下單",
+        "description9":"★蛋糕都要冷凍可保存一星期",
+        "description10":"★食用前在室溫下退15-20分(類似冰淇淋蛋糕的吃法)",
+        "currency": "NT",
+        "countInStock": 100 
+    }
+]
